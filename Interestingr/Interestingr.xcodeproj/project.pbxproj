@@ -399,6 +399,7 @@
 				66D514AE19DA46BF0075B471 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		66D514AF19DA46BF0075B471 /* Build configuration list for PBXNativeTarget "InterestingrTests" */ = {
 			isa = XCConfigurationList;
@@ -407,6 +408,7 @@
 				66D514B119DA46BF0075B471 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

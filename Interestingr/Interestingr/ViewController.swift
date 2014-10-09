@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AVFoundation
 
 class ViewController: UIViewController {
                             
@@ -25,12 +26,17 @@ class ViewController: UIViewController {
         
         var image = UIImage(data:imageData)
         
-        let size = CGSizeApplyAffineTransform(image.size, CGAffineTransformMakeScale(0.5, 0.5))
-        let hasAlpha = false
-        let scale: CGFloat = 0.0 // Automatically use scale factor of main screen
+        //var size = CGSizeApplyAffineTransform(image.size, CGAffineTransformMakeScale(0.5, 0.5))
+        var size = AVMakeRectWithAspectRatioInsideRect(image.size, mainImage.bounds)
+        var hasAlpha = false
+        var scale: CGFloat = 0.0 // Automatically use scale factor of main screen
         
-        UIGraphicsBeginImageContextWithOptions(size, !hasAlpha, scale)
-        image.drawInRect(CGRect(origin: CGPointZero, size: size))
+        println("size==\(size)")
+        
+        UIGraphicsBeginImageContextWithOptions(size.size, !hasAlpha, scale)
+        var rect = CGRect(origin: CGPointZero, size: size.size)
+        println("rect==\(rect)")
+        image.drawInRect(rect)
         
         let scaledImage = UIGraphicsGetImageFromCurrentImageContext()
         

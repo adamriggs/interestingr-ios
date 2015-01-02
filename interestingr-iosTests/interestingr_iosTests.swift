@@ -1,15 +1,15 @@
 //
-//  InterestingrTests.swift
-//  InterestingrTests
+//  interestingr_iosTests.swift
+//  interestingr-iosTests
 //
-//  Created by Adam Riggs on 9/29/14.
-//  Copyright (c) 2014 Adam Riggs. All rights reserved.
+//  Created by Adam Riggs on 1/2/15.
+//  Copyright (c) 2015 Adam Riggs. All rights reserved.
 //
 
 import UIKit
 import XCTest
 
-class InterestingrTests: XCTestCase {
+class interestingr_iosTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Interestingr.xcscheme</key>
+		<key>interestingr-ios.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,12 +12,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>66D5148F19DA46BF0075B471</key>
+		<key>668A60F91A5760730018B2E7</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>66D514A119DA46BF0075B471</key>
+		<key>668A610E1A5760730018B2E7</key>
 		<dict>
 			<key>primary</key>
 			<true/>
